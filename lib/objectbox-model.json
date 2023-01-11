@@ -1,0 +1,130 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "2:996402993918098799",
+      "lastPropertyId": "3:406495301270679148",
+      "name": "ImageEntity",
+      "properties": [
+        {
+          "id": "1:2303920253337728860",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6091932211460351055",
+          "name": "href",
+          "type": 9
+        },
+        {
+          "id": "3:406495301270679148",
+          "name": "userId",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:323255558284367340",
+      "lastPropertyId": "13:1290164249839233086",
+      "name": "UserEntity",
+      "properties": [
+        {
+          "id": "1:3257929673903897108",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:8336182396853591962",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:4287833890760207608",
+          "name": "audioMessage",
+          "type": 9
+        },
+        {
+          "id": "4:1586325604733751937",
+          "name": "music",
+          "type": 9
+        },
+        {
+          "id": "5:3964876808451150579",
+          "name": "locationName",
+          "type": 9
+        },
+        {
+          "id": "6:2373292176837708657",
+          "name": "locationLatitude",
+          "type": 8
+        },
+        {
+          "id": "7:575235077004404824",
+          "name": "locationLongitude",
+          "type": 8
+        },
+        {
+          "id": "8:1368949735067922356",
+          "name": "languageOb",
+          "type": 6
+        },
+        {
+          "id": "9:2203505717763379757",
+          "name": "verdictOb",
+          "type": 6
+        },
+        {
+          "id": "10:4358663605377976369",
+          "name": "goalOb",
+          "type": 6
+        },
+        {
+          "id": "11:1841074004622380065",
+          "name": "hobbiesOb",
+          "type": 6
+        },
+        {
+          "id": "12:8300402074908205874",
+          "name": "birthday",
+          "type": 10
+        },
+        {
+          "id": "13:1290164249839233086",
+          "name": "isCurrentUser",
+          "type": 1
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:6610214784631957949",
+          "name": "images",
+          "targetId": "2:996402993918098799"
+        }
+      ]
+    }
+  ],
+  "lastEntityId": "3:323255558284367340",
+  "lastIndexId": "0:0",
+  "lastRelationId": "1:6610214784631957949",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    7004767223592022086
+  ],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    4829860445167874692,
+    1184309729544109587,
+    7573233962352264504,
+    2128937826402393724,
+    277963757862495216
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

@@ -1,0 +1,4 @@
+enum UserGoal {
+  friends,
+  date,
+}
