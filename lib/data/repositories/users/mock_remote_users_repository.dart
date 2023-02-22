@@ -12,7 +12,9 @@ import 'package:user_cards/domain/models/user.dart';
 import 'package:user_cards/domain/models/user_goal.dart';
 import 'package:user_cards/domain/models/verdict.dart';
 import 'package:user_cards/domain/repositories/users/remote_users_repository.dart';
-
+/// data - содержит релизацию абстракций domain и вспомогательные для этого файлы
+///
+/// service - все что не попадает под описание interactor или repository
 @LazySingleton(as: RemoteUserRepository, env: AppEnvironment.mocks)
 class MockRemoteUserRepository extends RemoteUserRepository {
   var _sumOffsets = 2;

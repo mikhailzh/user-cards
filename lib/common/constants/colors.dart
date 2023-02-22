@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// common - содержит константы, базовые расширения и утилиты, которые не зависят от логики приложения
 class AppColors {
   static const light = ColorScheme.light(
     primary: Color(0xFFF44336),

@@ -1,7 +1,9 @@
 import 'package:user_cards/domain/models/report.dart';
 import 'package:user_cards/domain/models/user.dart';
 import 'package:user_cards/domain/models/verdict.dart';
-
+/// domain - содержит абстракции всех бизнес-классов приложения и бизнес-модели
+///
+/// interactor - получает данные из репозиториев, содержит часть логики приложения, работает с сервисами
 abstract class UserInteractor {
   Stream<List<User>> getAll();
 

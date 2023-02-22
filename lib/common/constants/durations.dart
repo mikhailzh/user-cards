@@ -1,3 +1,4 @@
+/// common - содержит константы, базовые расширения и утилиты, которые не зависят от логики приложения
 abstract class AnimationDuration {
   static const Duration extraShort = Duration(milliseconds: 100);
   static const Duration short = Duration(milliseconds: 250);

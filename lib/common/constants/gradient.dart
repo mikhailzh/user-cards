@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-
+/// common - содержит константы, базовые расширения и утилиты, которые не зависят от логики приложения
 abstract class AppGradient {
   static const main = LinearGradient(
     begin: Alignment.topLeft,

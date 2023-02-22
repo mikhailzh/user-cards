@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart' as foundation;
 import 'package:injectable/injectable.dart';
-
+/// common - содержит константы, базовые расширения и утилиты, которые не зависят от логики приложения
 abstract class AppEnvironment {
   static const bool IS_RELEASE = foundation.kReleaseMode;
 

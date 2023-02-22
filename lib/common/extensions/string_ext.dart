@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:intl/intl.dart';
-
+/// common - содержит константы, базовые расширения и утилиты, которые не зависят от логики приложения
 extension StringFormat on String {
   String get digits => replaceAll(RegExp('[^0-9]'), '');
 

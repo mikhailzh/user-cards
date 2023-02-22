@@ -1,3 +1,4 @@
+/// common - содержит константы, базовые расширения и утилиты, которые не зависят от логики приложения
 abstract class Radii {
   static const extraTiny = 2.0;
   static const tiny = 4.0;

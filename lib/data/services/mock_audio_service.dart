@@ -3,6 +3,9 @@ import 'package:injectable/injectable.dart';
 import 'package:user_cards/common/constants/environment.dart';
 import 'package:user_cards/domain/services/audio_service.dart';
 
+/// data - содержит релизацию абстракций domain и вспомогательные для этого файлы
+///
+/// service - все что не попадает под описание interactor или repository
 @LazySingleton(as: AudioService, env: AppEnvironment.mocks)
 class MockAudioService extends AudioService {
   final player = AudioPlayer();

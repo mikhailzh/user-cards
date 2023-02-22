@@ -9,7 +9,9 @@ import 'package:user_cards/di/di.dart';
 import 'package:user_cards/domain/models/user.dart';
 import 'package:user_cards/domain/repositories/users/local_users_repository.dart';
 import 'package:user_cards/objectbox.g.dart';
-
+/// data - содержит релизацию абстракций domain и вспомогательные для этого файлы
+///
+/// service - все что не попадает под описание interactor или repository
 @LazySingleton(as: LocalUserRepository)
 class ObjectBoxLocalUserRepository extends LocalUserRepository {
   final Store _store = getIt();

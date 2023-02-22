@@ -5,7 +5,9 @@ import 'package:user_cards/domain/models/user.dart';
 import 'package:user_cards/domain/models/verdict.dart';
 import 'package:user_cards/domain/repositories/users/local_users_repository.dart';
 import 'package:user_cards/domain/repositories/users/remote_users_repository.dart';
-
+/// data - содержит релизацию абстракций domain и вспомогательные для этого файлы
+///
+/// interactor - получает данные из репозиториев, содержит часть логики приложения, работает с сервисами
 const _defaultSize = 3;
 const _firstSize = 2 * _defaultSize;
 

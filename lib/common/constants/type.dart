@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+/// common - содержит константы, базовые расширения и утилиты, которые не зависят от логики приложения
 class AppTypography {
   static const light = TextTheme(
     headline3: TextStyle(

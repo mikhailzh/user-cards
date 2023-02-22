@@ -2,7 +2,7 @@ import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
 
 import 'di.config.dart';
-
+/// di - содержит настройки dependency injection(основной файл на подобие этого) и модули
 final GetIt getIt = GetIt.instance;
 
 @InjectableInit(asExtension: true, initializerName: 'init')

@@ -3,7 +3,9 @@ import 'dart:async';
 import 'package:injectable/injectable.dart';
 import 'package:location/location.dart';
 import 'package:user_cards/domain/services/location_service.dart';
-
+/// data - содержит релизацию абстракций domain и вспомогательные для этого файлы
+///
+/// service - все что не попадает под описание interactor или repository
 @LazySingleton(as: LocationService)
 class DefaultLocationService extends LocationService {
   Location location = Location();

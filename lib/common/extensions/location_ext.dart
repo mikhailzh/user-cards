@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:location/location.dart';
 import 'package:user_cards/domain/models/location.dart' as model;
-
+/// common - содержит константы, базовые расширения и утилиты, которые не зависят от логики приложения
 extension LocationDataExt on LocationData {
   int distanceFrom(model.Location location) {
     const R = 6371e3; // metres

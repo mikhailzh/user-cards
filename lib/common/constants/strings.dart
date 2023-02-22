@@ -1,5 +1,5 @@
 import 'package:intl/intl.dart';
-
+/// common - содержит константы, базовые расширения и утилиты, которые не зависят от логики приложения
 abstract class Strings {
   static final users = UsersStrings();
   static final goal = UserGoalStrings();

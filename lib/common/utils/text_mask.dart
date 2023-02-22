@@ -1,5 +1,5 @@
 import 'package:flutter/services.dart';
-
+/// common - содержит константы, базовые расширения и утилиты, которые не зависят от логики приложения
 class USPhoneFormatter extends TextInputFormatter {
   static String? format(String? value) {
     if (value == null) {

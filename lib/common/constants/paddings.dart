@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+/// common - содержит константы, базовые расширения и утилиты, которые не зависят от логики приложения
 enum Paddings {
   zero,
   extraTiny,
